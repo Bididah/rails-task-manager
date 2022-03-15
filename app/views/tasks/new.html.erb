@@ -1,0 +1,8 @@
+<h1>Adding New Task </h1>
+
+<%= simple_form_for @task do |t| %>
+  <%= t.input :title %>
+  <%= t.input :details %>
+  <%= t.input :completed %>
+  <%= t.button :submit %>
+<% end %>
